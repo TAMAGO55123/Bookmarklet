@@ -1,0 +1,1 @@
+(function(){var a=document.querySelector("div.user-id");var b=a.innerHTML.match(/@[\w-]+/)[0];a.innerHTML=a.innerHTML.replace(/@[\w-]+/,`<a href="https://scratch.mit.edu/users/${b.match(/[\w-]+/)[0]}" style="color: var(--secondary-text-color);">${b}</a>`);})();
